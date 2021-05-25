@@ -3,10 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js" 
   },
   "author": "Magi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2"
+  }
 }
