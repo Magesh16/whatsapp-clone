@@ -10,7 +10,7 @@ function Chat() {
                 <Avatar/>
             <div className='chat_headerInfo'>
                 <h3>Room Name</h3>
-                <p>LAst seen at...</p>
+                <p>Last seen at...</p> 
             </div>
             <div className="chat_headerRight">
           <IconButton>
