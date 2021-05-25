@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     flex: 0.35;
+    background-color: #5d613f;
 
 }
 .sidebar_header{
@@ -27,7 +28,7 @@
 .sidebar_search{
     display: flex;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: #4d5255;
     height: 39px;
     padding: 10px;
 
