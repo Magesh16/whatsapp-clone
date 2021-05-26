@@ -6,14 +6,15 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js" 
+    "start": "node server.js"
   },
   "author": "Magi",
   "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25",
     "express": "^4.17.1",
-    "mongoose": "^5.12.11"
+    "mongoose": "^5.12.11",
+    "pusher": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
