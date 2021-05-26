@@ -26,10 +26,16 @@ function App() {
     });
 
     const channel = pusher.subscribe('messages');
-    channel.bind('inserted',(data) =>{
-      alert(JSON.stringify(data));
+    channel.bind('inserted',(newMessage) =>{
+      alert(JSON.stringify(newMessage));
+      setMessages([...messages, newMessage])
     });
-  }, []);
+    return ()=>{
+      channel.unbind_all();
+      channel.unsubscribe();
+    };
+
+  }, [messages]);
 console.log(messages);
 
   return (
